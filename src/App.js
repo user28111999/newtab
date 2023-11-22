@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import SearchBar from "./components/SearchBar"
 import Time from "./components/Time"
+import Tasks from "./components/Tasks"
 
 const Container = styled.div`
     display: flex;
@@ -17,6 +18,7 @@ const App = () => {
     <Container>
       <Time />
       <SearchBar />
+      <Tasks />
     </Container>
   )
 }
